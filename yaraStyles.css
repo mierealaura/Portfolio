@@ -1,27 +1,27 @@
 @font-face {
     font-family: Raleway;
-    src: url('./Fonts/Raleway-ExtraBold.ttf') format('truetype');
+    src: url('/Portfolio/Fonts/Raleway-ExtraBold.ttf') format('truetype');
     font-weight: 800;
     font-style: normal;
 }
 
 @font-face {
     font-family: Raleway;
-    src: url('./Fonts/Raleway-Light.ttf') format('truetype');
+    src: url('/Portfolio/Fonts/Raleway-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: Gentium-Basic;
-    src: url('./Fonts/GentiumBasic-Regular.ttf') format('truetype');
+    src: url('/Portfolio/Fonts/GentiumBasic-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: Gentium-Basic;
-    src: url('./Fonts/GentiumBasic-Bold.ttf') format('truetype');
+    src: url('/Portfolio/Fonts/GentiumBasic-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
