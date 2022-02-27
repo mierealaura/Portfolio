@@ -39,13 +39,12 @@ h1{
     height: 140.5px;
     margin-left: 59.5px;
     margin-top: 417.5px;
-    
+    z-index: 2;
     font-family: Raleway;
     font-style: normal;
     font-weight: 800;
     font-size: 149.168px;
     line-height: 175px;
-    z-index: 2;
     
     color: #FFFFFF;
 }
@@ -56,13 +55,13 @@ h2{
     height: 59.12px;
     margin-left: 59.5px;
     margin-top: 563.88px;
-
+    z-index: 2;
     font-family: Raleway;
     font-style: normal;
     font-weight: 300;
     font-size: 52.8157px;
     line-height: 62px;
-    z-index: 2;
+
     color: #FFFFFF;
 }
 
