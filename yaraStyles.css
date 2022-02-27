@@ -26,6 +26,45 @@
     font-style: normal;
 }
 
+#leftSide{
+    position:relative;
+    width:30%;
+    height:100%; 
+}
+
+#rightSide{
+    position: absolute;
+    left: 30%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.image{
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+.box{
+    position:absolute; 
+    width: 80%;
+    padding-top: 90%;
+
+}
+
+.center{
+    left: 10%;
+    top:2%;
+}
+
+#myVideo{
+    position: absolute;
+    right:0;
+    z-index: 3;
+}
+
 body{
     margin: 0;
     height:100%;
@@ -35,48 +74,60 @@ body{
 
 h1{
     position: absolute;
-    width: 325px;
-    height: 140.5px;
-    margin-left: 59.5px;
-    margin-top: 417.5px;
+    top:0;
+    left: 0;
+    margin-top: 72%;
+    margin-left: 2%;
+
+    width: 100%;
+    height: auto;
+    font-size: 7.5vw;
+
     z-index: 2;
     font-family: Raleway;
     font-style: normal;
     font-weight: 800;
-    font-size: 149.168px;
-    line-height: 175px;
+    
+    line-height: 10vw;
     
     color: #FFFFFF;
 }
 
 h2{
     position: absolute;
-    width: 320px;
-    height: 59.12px;
-    margin-left: 59.5px;
-    margin-top: 563.88px;
+    top:0;
+    left: 0;
+    margin-top: 88%;
+    margin-left: 2%;
+
+    width: 100%;
+    height: auto;
+    font-size: 2.65vw;
+
     z-index: 2;
     font-family: Raleway;
     font-style: normal;
     font-weight: 300;
-    font-size: 52.8157px;
-    line-height: 62px;
+
+    line-height: 10.2vw;
 
     color: #FFFFFF;
 }
 
 p{
     position: absolute;
-    width: 488.5px;
-    height: 394.5px;
-    margin-left: 48px;
-    margin-top: 663.5px;
+    width: 95%;
+    height: auto;
+    top:0;
+    left: 0;
+    margin-top: 120%;
+    margin-left: 2%;
 
     font-family: Gentium-Basic;
     font-style: normal;
     font-weight: normal;
-    font-size: 21.4763px;
-    line-height: 25px;
+    font-size: 1.2vw;
+
 
     color: #CAE4E0;
 }
@@ -85,21 +136,82 @@ b{
     font-family: Gentium-Basic;
     font-style: normal;
     font-weight: bold;
-    font-size: 21.4763px;
-    line-height: 25px;
 
     color: #FFFFFF;
 }
 
-img[src="/Portfolio/Yara_01.png"]{
+img[src="/Portfolio/Source/Yara_01.png"]{
     position: absolute;
-    width: 488.25px;
-    height: 576.25px;
-    margin-left: 48px;
-    margin-top: 52.5px;
+    top:0;
+    width: 100%;
+    height: auto;
     z-index: 1;
     
 }
+
+#firstImage{
+    z-index: 2;
+    position: absolute;
+    left:5%;
+    top:13%;
+    width: 45%;
+
+}
+
+#secondImage{
+    z-index: 2;
+    position: absolute;
+    left:45%;
+    top:13%;
+    padding-top:14%;
+    width: 27%;
+    transform: matrix(-1, -0.06, -0.06, 1, 0, 0);
+
+}
+
+#Knife01{
+    z-index: 2;
+    position: absolute;
+    left:2%;
+    top:2%;
+    width: 20%;
+    transform: rotate(3deg);
+}
+
+.knives{
+    z-index: 2;
+    position: absolute;
+    width:10%;
+    top: 5%;
+
+    transform: rotate(60deg);
+}
+
+#SmallKnife1{
+    left:60%;
+}
+#SmallKnife2{
+    left:70%;
+}
+#SmallKnife3{
+    left:50%;
+}
+
+.silhouettes{
+    z-index: 2;
+    position: absolute;
+    width:18%;
+    left:75%;
+    top:13%;
+}
+
+#Silhouette1{
+    padding-top:10%;
+}
+#Silhouette2{
+    padding-top:37%;
+}
+
 
 #upperGradient{
     position: absolute;
@@ -119,6 +231,6 @@ img[src="/Portfolio/Yara_01.png"]{
     top: 0%;
     bottom: 0%;
     z-index: -1;
-    
-    background: linear-gradient(0.02deg, rgba(26, 99, 77, 0.72) 0.01%, rgba(198, 255, 164, 0.31) 33.34%, rgba(126, 140, 117, 0) 65.62%);
+    background: linear-gradient(0deg, rgba(26, 99, 77, 0.72) 0%, rgba(198, 255, 164, 0.31) 33.34%, rgba(126, 140, 117, 0) 65.62%);
+
 }

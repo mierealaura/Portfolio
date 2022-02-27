@@ -40,3 +40,4 @@ var input = document.getElementById("myInput");
           }
           fullScreen = false;
         }
+
